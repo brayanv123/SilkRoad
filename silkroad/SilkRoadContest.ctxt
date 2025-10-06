@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=SilkRoadContest
+comment0.text=\r\n\ The\ {@code\ SilkRoadContest}\ class\ simulates\ a\ competition\ scenario\ \r\n\ where\ robots\ and\ stores\ are\ placed\ along\ a\ one-dimensional\ Silk\ Road.\r\n\ Robots\ move\ and\ collect\ tenges\ (coins)\ from\ stores\ based\ on\ a\ sequence\ \r\n\ of\ daily\ events\ provided\ as\ input.\r\n\ <p>\r\n\ This\ class\ allows\ both\ a\ fast\ execution\ of\ the\ simulation\ (instant\ results)\r\n\ and\ a\ slow\ mode\ using\ a\ timer\ for\ visualization.\r\n\ </p>\r\n\ \r\n\ @author\ Brayan\ Valdes\ -\ Yan\ Guerra\r\n\ @version\ 05/10/2025\r\n
+comment1.params=
+comment1.target=SilkRoadContest()
+comment1.text=\r\n\ Constructs\ a\ new\ {@code\ SilkRoadContest}\ instance\ with\ \r\n\ default\ initialization.\r\n\ <p>\r\n\ Initializes\ an\ empty\ {@code\ profit}\ list\ and\ a\ default\ 1x1\ \r\n\ {@code\ days}\ matrix\ to\ avoid\ null\ references.\r\n\ </p>\r\n
+comment2.params=days
+comment2.target=java.util.ArrayList\ solve(int[][])
+comment2.text=\r\n\ Solves\ the\ Silk\ Road\ contest\ by\ processing\ a\ sequence\ of\ events\ \r\n\ represented\ by\ a\ 2D\ array\ of\ integers.\r\n\ <p>\r\n\ Each\ row\ in\ {@code\ days}\ corresponds\ to\ an\ event\:\r\n\ <ul>\r\n\ \ \ <li>{@code\ elem[0]}\ \u2192\ type\ (1\ for\ robot,\ 2\ for\ store)</li>\r\n\ \ \ <li>{@code\ elem[1]}\ \u2192\ position\ on\ the\ Silk\ Road</li>\r\n\ \ \ <li>{@code\ elem[2]}\ \u2192\ tenges\ (only\ if\ it's\ a\ store)</li>\r\n\ </ul>\r\n\ The\ method\ places\ robots\ and\ stores,\ moves\ robots,\ collects\ profits,\ \r\n\ and\ resets\ the\ road\ after\ each\ step.\r\n\ </p>\r\n\ \r\n\ @param\ days\ a\ 2D\ integer\ array\ representing\ daily\ actions\ on\ the\ Silk\ Road.\r\n\ @return\ an\ {@code\ ArrayList<Integer>}\ containing\ the\ total\ profit\ after\ each\ step.\r\n
+comment3.params=days\ slow
+comment3.target=void\ simulate(int[][],\ boolean)
+comment3.text=\r\n\ Simulates\ the\ Silk\ Road\ contest\ visually,\ with\ an\ option\ for\ \r\n\ slow-motion\ playback\ using\ a\ {@link\ Timer}.\r\n\ <p>\r\n\ This\ method\ executes\ the\ same\ logic\ as\ {@link\ \#solve(int[][])},\ \r\n\ but\ when\ {@code\ slow}\ is\ {@code\ true},\ it\ uses\ a\ {@code\ TimerTask}\ \r\n\ to\ perform\ the\ actions\ gradually\ every\ 10\ seconds.\r\n\ </p>\r\n\r\n\ @param\ days\ a\ 2D\ integer\ array\ representing\ daily\ actions\ (robots\ or\ stores).\r\n\ @param\ slow\ if\ {@code\ true},\ runs\ the\ simulation\ step-by-step\ with\ a\ timer;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ {@code\ false},\ runs\ it\ instantly.\r\n
+comment4.params=
+comment4.target=void\ run()
+numComments=5
