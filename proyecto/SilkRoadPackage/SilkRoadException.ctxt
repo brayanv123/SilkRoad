@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SilkRoadException
+comment0.text=\r\n\ Represents\ a\ custom\ exception\ used\ within\ the\ Silk\ Road\ simulator.\r\n\ <p>\r\n\ The\ {@code\ SilkRoadException}\ class\ defines\ specific\ error\ messages\ related\ to\r\n\ invalid\ operations\ or\ data\ in\ the\ Silk\ Road\ system,\ such\ as\ invalid\ numbers,\r\n\ invalid\ day\ lists,\ or\ invalid\ positions.\r\n\ <p>\r\n\ This\ exception\ is\ thrown\ to\ signal\ exceptional\ situations\ that\ occur\ during\r\n\ the\ simulation\ setup\ or\ robot/store\ operations.\r\n\r\n\ @author\ Brayan\ Valdes\ -\ Yan\ Guerra\r\n\ @version\ 28/10/2025\r\n
+comment1.params=message
+comment1.target=SilkRoadException(java.lang.String)
+comment1.text=\r\n\ Creates\ a\ new\ {@code\ SilkRoadException}\ with\ the\ specified\ detail\ message.\r\n\r\n\ @param\ message\ the\ detail\ message\ describing\ the\ cause\ of\ the\ exception.\r\n
+numComments=2

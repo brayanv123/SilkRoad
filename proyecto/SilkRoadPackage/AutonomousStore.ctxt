@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AutonomousStore
+comment0.text=\r\n\ Represents\ a\ special\ type\ of\ store\ called\ an\ AutonomousStore.\r\n\ <p>\r\n\ An\ {@code\ AutonomousStore}\ chooses\ its\ own\ random\ position\ along\ the\ Silk\ Road\r\n\ instead\ of\ being\ placed\ in\ the\ location\ assigned\ by\ the\ system.\ Each\ time\ it\ is\r\n\ created,\ it\ randomly\ selects\ a\ new\ position\ from\ the\ available\ rectangles.\r\n\ <p>\r\n\ This\ class\ extends\ {@link\ Store}\ and\ changes\ its\ appearance\ to\ a\ cyan\ fill\ with\r\n\ a\ gray\ border\ to\ distinguish\ it\ from\ other\ store\ types.\r\n\r\n\ @author\ Brayan\ Valdes\ -\ Yan\ Guerra\r\n\ @version\ 28/10/2025\r\n
+comment1.params=rectangle\ tenges\ rectangles
+comment1.target=AutonomousStore(Shapes.Rectangle,\ int,\ Shapes.Rectangle[])
+comment1.text=\r\n\ Constructs\ an\ AutonomousStore\ that\ chooses\ its\ position\ automatically.\r\n\ <p>\r\n\ Upon\ creation,\ the\ store\ selects\ a\ random\ rectangle\ from\ the\ given\ array\r\n\ and\ updates\ its\ coordinates\ accordingly.\ Its\ color\ is\ set\ to\ cyan\ and\ gray\r\n\ for\ easy\ visual\ identification.\r\n\r\n\ @param\ rectangle\ the\ initial\ graphical\ representation\ of\ the\ store.\r\n\ @param\ tenges\ the\ amount\ of\ tenges\ contained\ in\ the\ store.\r\n\ @param\ rectangles\ the\ array\ of\ all\ available\ rectangles\ representing\ road\ positions.\r\n
+comment2.params=
+comment2.target=int\ randomPosition()
+comment2.text=\r\n\ Generates\ a\ random\ valid\ position\ index\ within\ the\ available\ rectangles.\r\n\r\n\ @return\ a\ random\ integer\ between\ 0\ (inclusive)\ and\ the\ total\ number\ of\ rectangles\ (exclusive).\r\n
+comment3.params=
+comment3.target=int\ xPos()
+comment3.text=\r\n\ Returns\ the\ X\ coordinate\ of\ the\ randomly\ selected\ position.\r\n\r\n\ @return\ the\ X\ coordinate\ corresponding\ to\ the\ store's\ new\ location.\r\n
+comment4.params=
+comment4.target=int\ yPos()
+comment4.text=\r\n\ Returns\ the\ Y\ coordinate\ of\ the\ randomly\ selected\ position.\r\n\r\n\ @return\ the\ Y\ coordinate\ corresponding\ to\ the\ store's\ new\ location.\r\n
+numComments=5

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TenderRobot
+comment0.text=\r\n\ Represents\ a\ special\ type\ of\ robot\ called\ a\ TenderRobot.\r\n\ <p>\r\n\ A\ {@code\ TenderRobot}\ is\ a\ robot\ that\ only\ takes\ half\ of\ the\ tenges\r\n\ available\ in\ each\ store\ it\ visits,\ instead\ of\ taking\ all\ the\ money.\r\n\ <p>\r\n\ This\ class\ extends\ {@link\ Robot}\ and\ changes\ its\ visual\ appearance\r\n\ to\ red\ in\ order\ to\ distinguish\ it\ from\ other\ robot\ types.\r\n\r\n\ @author\ Brayan\ Valdes\ -\ Yan\ Guerra\r\n\ @version\ 28/10/2025\r\n
+comment1.params=rectangle\ initialLocation
+comment1.target=TenderRobot(Shapes.Rectangle,\ int)
+comment1.text=\r\n\ Constructs\ a\ TenderRobot\ at\ the\ specified\ initial\ location.\r\n\ <p>\r\n\ The\ robot\ is\ displayed\ in\ red\ to\ visually\ indicate\ its\ type.\r\n\r\n\ @param\ rectangle\ the\ graphical\ representation\ (position\ and\ shape)\ of\ the\ robot.\r\n\ @param\ initialLocation\ the\ initial\ location\ index\ of\ the\ robot\ on\ the\ Silk\ Road.\r\n
+numComments=2

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=NeverBackRobot
+comment0.text=\r\n\ Represents\ a\ special\ type\ of\ robot\ called\ a\ NeverBackRobot.\r\n\ <p>\r\n\ A\ {@code\ NeverBackRobot}\ is\ a\ robot\ that\ cannot\ move\ backward\ \u2014\ it\ can\ only\r\n\ move\ forward\ along\ the\ Silk\ Road.\ If\ an\ attempt\ is\ made\ to\ move\ it\ to\ a\r\n\ previous\ position,\ the\ action\ is\ rejected\ and\ a\ warning\ message\ is\ shown.\r\n\ <p>\r\n\ This\ class\ extends\ {@link\ Robot}\ and\ modifies\ its\ behavior\ and\ appearance.\r\n\r\n\ @author\ Brayan\ Valdes\ -\ Yan\ Guerra\r\n\ @version\ 28/10/2025\r\n
+comment1.params=rectangle\ initLocation
+comment1.target=NeverBackRobot(Shapes.Rectangle,\ int)
+comment1.text=\r\n\ Constructs\ a\ NeverBackRobot\ at\ the\ specified\ initial\ location.\r\n\ <p>\r\n\ The\ robot\ is\ visually\ represented\ in\ blue\ to\ distinguish\ it\ from\ other\ robot\ types.\r\n\r\n\ @param\ rectangle\ the\ graphical\ representation\ (position\ and\ shape)\ of\ the\ robot.\r\n\ @param\ initLocation\ the\ initial\ location\ index\ of\ the\ robot.\r\n
+comment2.params=newPos\ to\ in
+comment2.target=void\ moveTo(Shapes.Rectangle,\ int,\ int)
+comment2.text=\r\n\ Attempts\ to\ move\ the\ robot\ to\ a\ new\ position\ along\ the\ Silk\ Road.\r\n\ <p>\r\n\ The\ robot\ can\ only\ move\ forward\ (to\ a\ position\ greater\ than\ its\ current\ one).\r\n\ If\ the\ destination\ position\ is\ less\ than\ or\ equal\ to\ the\ current\ position,\r\n\ a\ dialog\ message\ is\ displayed\ and\ the\ robot\ remains\ in\ place.\r\n\r\n\ @param\ newPos\ the\ new\ rectangle\ representing\ the\ target\ position.\r\n\ @param\ to\ the\ current\ position\ index\ of\ the\ robot.\r\n\ @param\ in\ the\ intended\ destination\ position\ index.\r\n
+comment3.params=
+comment3.target=int\ actualPosition()
+comment3.text=\r\n\ Returns\ the\ current\ position\ index\ of\ this\ robot\ on\ the\ Silk\ Road.\r\n\r\n\ @return\ the\ current\ position\ of\ the\ robot.\r\n
+numComments=4

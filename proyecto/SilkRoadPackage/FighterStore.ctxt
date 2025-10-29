@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FighterStore
+comment0.text=\r\n\ Represents\ a\ special\ type\ of\ store\ called\ a\ FighterStore.\r\n\ <p>\r\n\ A\ FighterStore\ can\ only\ be\ looted\ by\ robots\ that\ have\ more\ tenges\ than\ the\ store\ itself.\r\n\ This\ class\ extends\ {@link\ Store}\ and\ customizes\ its\ visual\ appearance\ and\ interaction\ rules.\r\n\r\n\ @author\ Brayan\ Valdes\ -\ Yan\ Guerra\r\n\ @version\ 28/10/2025\r\n
+comment1.params=rectangle\ tenges
+comment1.target=FighterStore(Shapes.Rectangle,\ int)
+comment1.text=\r\n\ Constructs\ a\ FighterStore\ with\ the\ given\ shape\ and\ amount\ of\ tenges.\r\n\ <p>\r\n\ The\ store\ is\ visually\ distinguished\ by\ having\ an\ orange\ fill\ and\ a\ purple\ border.\r\n\r\n\ @param\ rectangle\ the\ graphical\ representation\ (position\ and\ shape)\ of\ the\ store.\r\n\ @param\ tenges\ the\ initial\ amount\ of\ tenges\ contained\ in\ the\ store.\r\n
+comment2.params=robot
+comment2.target=void\ removeTenges(Robot)
+comment2.text=\r\n\ Removes\ tenges\ from\ this\ store\ if\ the\ given\ robot\ is\ allowed\ to\ take\ them.\r\n\ <p>\r\n\ A\ robot\ can\ only\ remove\ tenges\ from\ this\ store\ if\ it\ satisfies\ the\r\n\ {@link\ \#isRemovable(Robot)}\ condition.\r\n\r\n\ @param\ robot\ the\ robot\ attempting\ to\ collect\ tenges\ from\ this\ store.\r\n
+comment3.params=robot
+comment3.target=boolean\ isRemovable(Robot)
+comment3.text=\r\n\ Determines\ whether\ the\ given\ robot\ is\ allowed\ to\ remove\ tenges\ from\ this\ store.\r\n\ <p>\r\n\ A\ robot\ can\ only\ loot\ this\ store\ if\ it\ has\ strictly\ more\ tenges\ than\ the\ store\ itself.\r\n\r\n\ @param\ robot\ the\ robot\ attempting\ to\ access\ the\ store.\r\n\ @return\ {@code\ true}\ if\ the\ robot\ has\ more\ tenges\ than\ the\ store;\ {@code\ false}\ otherwise.\r\n
+numComments=4
